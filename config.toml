@@ -1,0 +1,4 @@
+baseURL = "http://www.soudou.ml/"
+languageCode = "en-EN"
+title = "Soudou"
+theme = "ananke" 

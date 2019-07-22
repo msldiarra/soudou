@@ -1,0 +1,7 @@
+{{ partial "header.html" . }}
+<main class="locations">
+  {{ range .Site.Data.locations }}
+    {{ partial "location.html" . }}
+  {{ end }}
+</main>
+{{ partial "footer.html" . }}
