@@ -61,3 +61,5 @@ fields:
     date_format: 
     time_format: 
     display_utc: false
+pages:
+- content/locations/villa-duplex-a-louer-a-la-zone-industrielle-bamako.md
