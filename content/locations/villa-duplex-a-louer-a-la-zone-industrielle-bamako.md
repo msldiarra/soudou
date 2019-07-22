@@ -7,7 +7,7 @@ draft = true
 id = 201906001
 image = ""
 pays = "Mali"
-price = 300000
+price = 500000
 title = "Villa duplex a louer a la zone industrielle Bamako"
 ville = "Bamako"
 
