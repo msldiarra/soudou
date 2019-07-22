@@ -61,5 +61,21 @@ fields:
     date_format: 
     time_format: 
     display_utc: false
+- name: type
+  type: select
+  default: []
+  config:
+    required: false
+    options:
+    - Villa
+    - Maison
+    - Appartement
+    - Terrain
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Type de bien
 pages:
 - content/locations/villa-duplex-a-louer-a-la-zone-industrielle-bamako.md
