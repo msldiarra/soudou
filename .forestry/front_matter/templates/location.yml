@@ -1,4 +1,63 @@
 ---
 label: location
 hide_body: true
-fields: []
+fields:
+- name: id
+  type: text
+  config:
+    required: false
+  label: Identifiant
+- name: title
+  type: text
+  config:
+    required: false
+  label: Titre
+- name: price
+  type: number
+  label: Prix du loyer
+  description: ''
+  default: 0
+  required: true
+  config:
+    min: 
+    max: 
+    step: 
+- name: image
+  type: file
+  config:
+    maxSize: 250
+  label: Image
+- name: description
+  type: text
+  config:
+    required: false
+  label: Description
+- name: address
+  type: text
+  config:
+    required: false
+  label: Adresse
+- name: district
+  type: text
+  config:
+    required: false
+  label: Quartier
+- name: ville
+  type: text
+  config:
+    required: false
+  label: Ville
+- name: pays
+  type: text
+  config:
+    required: false
+  label: Pays
+- name: date_de_publication
+  type: datetime
+  label: Date de publication
+  description: ''
+  config:
+    required: false
+    date_format: 
+    time_format: 
+    display_utc: false
