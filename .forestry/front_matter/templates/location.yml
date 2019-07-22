@@ -42,17 +42,17 @@ fields:
   config:
     required: false
   label: Quartier
-- name: ville
+- name: city
   type: text
   config:
     required: false
   label: Ville
-- name: pays
+- name: country
   type: text
   config:
     required: false
   label: Pays
-- name: date_de_publication
+- name: release_date
   type: datetime
   label: Date de publication
   description: ''
