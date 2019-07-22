@@ -77,5 +77,25 @@ fields:
       file: 
       path: 
   label: Type de bien
+- name: surface
+  type: number
+  label: Surface
+  description: ''
+  default: 0
+  required: true
+  config:
+    min: 
+    max: 
+    step: 
+- name: number_of_rooms
+  type: number
+  label: Nombre de chambre
+  description: ''
+  default: 0
+  required: true
+  config:
+    min: 
+    max: 
+    step: 
 pages:
 - content/locations/villa-duplex-a-louer-a-la-zone-industrielle-bamako.md
