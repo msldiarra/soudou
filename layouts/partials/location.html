@@ -1,17 +1,12 @@
-<div class="product">
-    <h2 class="product__name">{{ .title }}</h2>
-    <img class="product__image" src="{{ .image }}" alt="">
-    <p class="product__description">{{ .description }}</p>
-    <div class="product__button-container">
-      <div class="product__price">${{ .price }}</div>
-      <button
-        class="snipcart-add-item buy-button"
-        data-item-id="{{ .id }}"
-        data-item-name="{{ .title }}"
-        data-item-price="{{ .price }}"
-        data-item-url="{{ .product_url }}"
-        data-item-description="{{ .description }}">
-        Add to cart
-      </button>
+<div class="property-card">
+    <div class="property-image">
+        <img src="{{ .image }}" />
     </div>
-  </div>
+    <div class="property-info">
+        <h1>{{ .title }}</h1>
+        <h4>{{ .price}} FCFA</h4>
+        <p>{{ .district}}, {{ .city }}</p>
+        <p class="truncate" >{{ .description}}</p>
+    </div>
+</div>
+    

@@ -1,0 +1,86 @@
+@font-face {
+    font-family: 'Rubik';
+    src: url(fonts/Rubik/Rubik-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Rubik';
+    font-weight: 600;
+    src: url(fonts/Rubik/Rubik-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'Source Sans Pro';
+    src: url(fonts/Source/SourceSansPro-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Source Sans Pro';
+    font-weight: 600;
+    src: url(fonts/Source/SourceSansPro-Bold.ttf);
+}
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 0 auto;
+    max-width: 1080px;
+}
+
+
+.header {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 50px
+}
+
+.header a {
+    display: flex;
+    align-items: flex-end;
+
+    font-size: 600;
+}
+
+.properties {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.property-card {
+    padding: 2%;
+    flex-grow: 1;
+    flex-basis: 98%;
+    display: flex;
+    height:300px;
+    margin-bottom: 10px;
+}
+
+.property-card div {
+    padding: 2%;
+    flex-grow: 1;
+    flex-basis: 48%;
+    overflow: hidden;
+}
+
+
+.property-image img {
+    height:300px;
+    width:auto;
+}
+
+.property-info { 
+    flex-direction: row; 
+    text-overflow: ellipsis;
+}
+
+.property-info h1 {
+    margin : 0;
+}
+
+.footer {
+    margin-top: 25px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    font-weight: 600;
+}
+

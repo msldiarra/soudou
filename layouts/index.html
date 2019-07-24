@@ -1,7 +1,7 @@
 {{ partial "header.html" . }}
 <main class="locations">
-  {{ range .Site.Data.locations }}
-    {{ partial "location.html" . }}
+  {{ range where .Site.RegularPages "Section" "locations" }}
+    {{ partial "location.html" .Params }}
   {{ end }}
 </main>
 {{ partial "footer.html" . }}
