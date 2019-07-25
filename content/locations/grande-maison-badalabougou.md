@@ -4,7 +4,6 @@ city = "Bamako"
 country = "Mali"
 description = "..."
 district = "Badalabougou"
-draft = true
 id = 201907004
 image = "/uploads/1085449_immobilier-de-luxe-les-investisseurs-locatifs-boudent-la-france-web-tete-0204097326295.jpg"
 number_of_rooms = 3
