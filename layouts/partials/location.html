@@ -1,12 +1,15 @@
-<div class="property-card">
-    <div class="property-image">
-        <img src="{{ .image }}" />
-    </div>
-    <div class="property-info">
-        <h1>{{ .title }}</h1>
-        <h4>{{ .price}} FCFA</h4>
-        <p>{{ .district}}, {{ .city }}</p>
-        <p class="truncate" >{{ .description}}</p>
+<div class="property-fit">
+    <div class="property-card">
+        <div class="property-image" >
+            <img src="{{ .image }}" />
+        </div>
+        <div class="property-info">
+            <h3>{{ .price}} FCFA</h3>
+            <p>{{ .number_of_rooms}} chambres</p>
+            <p>{{ .district}}, {{ .city }}</p>
+
+            <h5>{{ .surface}} mètres carrés</h5>
+        </div>
     </div>
 </div>
     
