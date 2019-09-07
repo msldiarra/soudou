@@ -4,6 +4,7 @@ city = "Kati"
 country = "Mali"
 description = "..."
 district = "Dares Salam"
+draft = true
 id = 201907003
 image = "/uploads/maxresdefault.jpg"
 number_of_rooms = 8
